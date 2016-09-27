@@ -14,6 +14,11 @@
 		132C73A31D93D20A00760801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132C73A11D93D20A00760801 /* LaunchScreen.storyboard */; };
 		132C73AE1D93D20A00760801 /* lesson5_kadaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132C73AD1D93D20A00760801 /* lesson5_kadaiTests.swift */; };
 		132C73B91D93D20A00760801 /* lesson5_kadaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132C73B81D93D20A00760801 /* lesson5_kadaiUITests.swift */; };
+		132C73CE1D9910AC00760801 /* photo.1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 132C73CA1D9910AC00760801 /* photo.1.jpg */; };
+		132C73CF1D9910AC00760801 /* photo.2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 132C73CB1D9910AC00760801 /* photo.2.jpg */; };
+		132C73D01D9910AC00760801 /* photo.3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 132C73CC1D9910AC00760801 /* photo.3.jpg */; };
+		132C73D11D9910AC00760801 /* photo.4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 132C73CD1D9910AC00760801 /* photo.4.jpg */; };
+		132C73D31D9A671F00760801 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132C73D21D9A671F00760801 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		132C73B41D93D20A00760801 /* lesson5.kadaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lesson5.kadaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		132C73B81D93D20A00760801 /* lesson5_kadaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lesson5_kadaiUITests.swift; sourceTree = "<group>"; };
 		132C73BA1D93D20A00760801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		132C73CA1D9910AC00760801 /* photo.1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.1.jpg; sourceTree = "<group>"; };
+		132C73CB1D9910AC00760801 /* photo.2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.2.jpg; sourceTree = "<group>"; };
+		132C73CC1D9910AC00760801 /* photo.3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.3.jpg; sourceTree = "<group>"; };
+		132C73CD1D9910AC00760801 /* photo.4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.4.jpg; sourceTree = "<group>"; };
+		132C73D21D9A671F00760801 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +109,12 @@
 			children = (
 				132C73981D93D20A00760801 /* AppDelegate.swift */,
 				132C739A1D93D20A00760801 /* ViewController.swift */,
+				132C73CA1D9910AC00760801 /* photo.1.jpg */,
+				132C73CB1D9910AC00760801 /* photo.2.jpg */,
+				132C73CC1D9910AC00760801 /* photo.3.jpg */,
+				132C73CD1D9910AC00760801 /* photo.4.jpg */,
 				132C739C1D93D20A00760801 /* Main.storyboard */,
+				132C73D21D9A671F00760801 /* ResultViewController.swift */,
 				132C739F1D93D20A00760801 /* Assets.xcassets */,
 				132C73A11D93D20A00760801 /* LaunchScreen.storyboard */,
 				132C73A41D93D20A00760801 /* Info.plist */,
@@ -230,8 +245,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				132C73A31D93D20A00760801 /* LaunchScreen.storyboard in Resources */,
+				132C73CF1D9910AC00760801 /* photo.2.jpg in Resources */,
 				132C73A01D93D20A00760801 /* Assets.xcassets in Resources */,
+				132C73D01D9910AC00760801 /* photo.3.jpg in Resources */,
 				132C739E1D93D20A00760801 /* Main.storyboard in Resources */,
+				132C73CE1D9910AC00760801 /* photo.1.jpg in Resources */,
+				132C73D11D9910AC00760801 /* photo.4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +277,7 @@
 			files = (
 				132C739B1D93D20A00760801 /* ViewController.swift in Sources */,
 				132C73991D93D20A00760801 /* AppDelegate.swift in Sources */,
+				132C73D31D9A671F00760801 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
