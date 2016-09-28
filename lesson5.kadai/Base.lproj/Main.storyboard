@@ -9,7 +9,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="lesson5_kadai" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_SlideshowApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -88,7 +88,7 @@
         <!--Outlet-->
         <scene sceneID="07s-n3-WmT">
             <objects>
-                <viewController id="gnL-nU-KNz" userLabel="Outlet" customClass="ResultViewController" customModule="lesson5_kadai" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gnL-nU-KNz" userLabel="Outlet" customClass="ResultViewController" customModule="_SlideshowApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IIF-Lo-LJy"/>
                         <viewControllerLayoutGuide type="bottom" id="p2d-f2-Hpy"/>
