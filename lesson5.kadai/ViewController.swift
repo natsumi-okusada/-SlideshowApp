@@ -151,10 +151,13 @@ class ViewController: UIViewController {
         // segueから遷移先のResultViewControllerを取得する
         let resultViewController:ResultViewController = segue.destinationViewController as! ResultViewController
         
-      
-        /// 表示している画像の番号
-        var dispImageNo = 0
         
+        resultViewController.x = dispImageNo
+        
+        /// 表示している画像の番号
+        // var dispImageNo = 0
+        
+    
         
         
     }
